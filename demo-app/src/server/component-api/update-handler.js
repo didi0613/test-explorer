@@ -19,7 +19,7 @@ const updateFiles = (repoFilePath, org, repoName, data) => {
     .then(() => {
 
       // update the map of known orgs
-      const orgMap = Path.join(__dirname, `../../data/orgs.json`);
+      const orgMap = Path.join(__dirname, `../../../data/orgs.json`);
 
       return readFile(orgMap)
         .then((catalog) => {

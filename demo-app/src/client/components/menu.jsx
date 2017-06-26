@@ -20,7 +20,7 @@ export default class Component extends React.Component {
 
     const host = window.location.origin;
 
-    return fetch(`${host}/data/orgs.json`)
+    return fetch(`${host}/demo-app/data/orgs.json`)
       .then((res) => {
         if (res.status >= 400) {
           throw res;
