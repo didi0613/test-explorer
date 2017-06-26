@@ -1,0 +1,15 @@
+{
+   "allOrgs":{
+      "docs-code-examples-electrode-io":{
+         "repos":{
+            "example-components-electrode-explorer":{
+               "link":"docs-code-examples-electrode-io/example-components-electrode-explorer",
+               "submodules":[
+                  "RenderFriend",
+                  "GuestList"
+               ]
+            }
+         }
+      }
+   }
+}
